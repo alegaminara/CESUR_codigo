@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesur>
+    <aula v = 'Informática 1'>
+        <planta>Primera planta</planta>
+        <alumnos>Caben aprox 21 alumnos</alumnos>
+        <ordenadores nro = '21' />
+        <programa1>Visual Studio Code</programa1>
+        <programa2>Blender</programa2>
+        <programa3>GIMP</programa3>
+        <asignatura1>Programación</asignatura1>
+        <asignatura2>Bases de datos</asignatura2>
+        <asignatura3>IPO</asignatura3>
+    </aula>
+    <aula1 v = 'Informática 2'>
+        <planta>Primera planta</planta>
+        <alumnos>Caben aprox 40 alumnos</alumnos>
+        <ordenadores nro = '40' />
+        <programa1>Visual Studio Code</programa1>
+        <programa2>Microsoft Edge</programa2>
+        <programa3>Photoshop</programa3>
+        <asignatura1>Biología</asignatura1>
+        <asignatura2>Bases de datos</asignatura2>
+        <asignatura3>IPO</asignatura3>
+    </aula1>
+    <aula2 v = 'Laboratiorio'>
+        <planta>Segunda planta</planta>
+        <alumnos>Caben aprox 12 alumnos</alumnos>
+        <ordenadores nro = '0' />
+        <programa1>Visual Studio Code</programa1>
+        <programa2>Blender</programa2>
+        <programa3>Google Chrome</programa3>
+        <asignatura1>Biología</asignatura1>
+        <asignatura2>Bases de datos</asignatura2>
+        <asignatura3>IPO</asignatura3>
+    </aula2>
+</cesur>

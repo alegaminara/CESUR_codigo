@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UFT-8'?> <!--siempre tiene que estar esta primera línea-->
+<note>
+    <nombres>Los nombres son casesensitive</nombres>
+    <importante>no puede empezar por un número ej. 9email</importante>
+    <cuerpo>Se puede comprobar que el documento está bien formado https://www.xmlvalidation.com</cuerpo>
+    <email v = 'alessandro.gaminara2911@gmail.com' /> <!--si no queremos poner más, podemos cerrar directamente con /-->
+    <mas>Siempre se tiene que cerrar un elemento</mas>
+</note>
+<!-- <clases>  No puede haber más de un elemento clave
+    <heading>Tonto quien lee</heading>
+</clases> -->

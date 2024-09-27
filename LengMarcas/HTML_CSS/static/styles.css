@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.titulo {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: bisque;
+    text-align: center;
+    position: static;
+    color: blueviolet;
+}
+
+.titulo h3{
+    color: blue;
+}
+
+a:link, a:visited, a:active {
+    color: hotpink;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+.cosas {
+    display: inline-flex;
+    margin-top: 5%;
+    align-items: center;
+}
