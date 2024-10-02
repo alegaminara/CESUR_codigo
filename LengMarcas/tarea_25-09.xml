@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cesur>
-    <aula valor = 'Informática 1'>
+    <aula nombre = 'Informática 1'>
         <planta>Primera planta</planta>
         <alumnos>Caben aprox  alumnos</alumnos>
-        <ordenadores nro = '' />
+        <ordenadores nro = '40' />
         <programas>
             <programa>Visual Studio Code</programa>
             <programa>Blender</programa>
@@ -15,7 +15,7 @@
             <asignatura>TIC</asignatura>
         </asignaturas>
     </aula>
-    <aula valor = 'Informática 2'>
+    <aula nombre = 'Informática 2'>
         <planta>Primera planta</planta>
         <alumnos>Caben aprox 40 alumnos</alumnos>
         <ordenadores nro = '40' />
@@ -30,7 +30,7 @@
             <asignatura>TIC</asignatura>
         </asignaturas>
     </aula>
-    <aula valor = 'Laboratiorio'>
+    <aula nombre = 'Laboratiorio'>
         <planta>Segunda planta</planta>
         <alumnos>Caben aprox  alumnos</alumnos>
         <ordenadores nro = '0' />
