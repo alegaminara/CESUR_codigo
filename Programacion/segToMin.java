@@ -7,11 +7,12 @@ public class segToMin {
         Scanner input = new Scanner(System.in);
         
         System.out.println("Entra un valor en segundos");
-        float inputNumero = input.nextFloat();
+        int inputNumero = input.nextInt();
         
-        float minutos = inputNumero / 60;
-    
-        System.out.println(inputNumero + " segundos = " + minutos +" minutos");
+        int minutos = inputNumero / 60;
+        int residuoSegundos = inputNumero % 60;
+        
+        System.out.println(inputNumero + " segundos = " + minutos + "," + residuoSegundos +" minutos");
     
         input.close();    
     }
