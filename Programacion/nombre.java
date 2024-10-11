@@ -8,5 +8,7 @@ public class nombre {
         String nombre = input.nextLine();
 
         System.out.println("¡Hola! Mi nombre es " + nombre);
+
+        input.close();
     }
 }
