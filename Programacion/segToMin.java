@@ -1,5 +1,3 @@
-package Programacion;
-
 import java.util.Scanner;
 
 public class segToMin {
