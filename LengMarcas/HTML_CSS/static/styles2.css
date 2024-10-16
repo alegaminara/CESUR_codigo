@@ -1,0 +1,58 @@
+body {
+    background-color: gray;
+}
+
+#noTranslate {
+    background-color: yellow;
+}
+
+.texto {
+    display: inline;
+}
+
+.alReves {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+a:hover, .gotoTop:hover {
+    background-color: palevioletred;
+    color: greenyellow !important;
+}
+
+a, a:visited {
+    color: aqua;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.tabla, .gotoTop {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.red {
+    background-color: red;
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.gotoTop {
+    background-color: yellow;
+    width: 130px;
+    height: auto;
+    vertical-align: bottom;
+    text-align: center;
+    display: flex;
+}

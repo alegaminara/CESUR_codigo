@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="tarea, lenguaje de marcas, cesur">
+    <link rel="stylesheet" href="static/styles2.css">
+    <link rel="icon" type="image/x-icon" href="static/componentes.ico">
+    <title>Tarea 2.3</title>
+</head>
+<body>
+    <h1 id="titulo">Tarea 2.3</h1>
+    <p>Texto con <b>negrita</b>, <i>enfatizado</i> y <s>texto borrado</s> texto insertado</p>
+    <div id="cita">
+        <p>Aquí se viene una cita importante</p>
+        <blockquote cite="https://psicologiaymente.com/reflexiones/frases-john-lennon">
+            Haz el amor y no la guerra, John Lennon
+        </blockquote>
+    </div>
+    <div class="texto">
+        <p>Cuando metas esta web en un traductor hacia inglés, 
+            <span translate="no" id="noTranslate">estas palabras resaltadas</span> 
+            no deben ser traducidas. Si lo son, no habrás pasado la prueba.
+            <span class="alReves">
+                ,Este texto se mostrará al revés
+            </span>
+            &nbsp;como puedes observar
+        </p>
+        <p>
+            También hago que este <a href="https://www.w3schools.com/html/default.asp">texto</a> te lleve a una maravillosa página web
+        </p>
+        <p>
+            Teléfono: <a href="tel:+34638978807" title="Si haces click me llamas">638 97 88 07</a>
+        </p>
+        <div class="imagen">
+            <img src="static/componentes.jpg" usemap="#image-map">
+            <map name="image-map">
+                <area target="_blank" alt="Compra un monitor" title="Compra un monitor" href="https://www.pccomponentes.com/search/?query=monitor&amp;&amp;page=1&amp;or-relevance" coords="207,241,582,35" shape="rect">
+                <area target="_blank" alt="Compra un teclado" title="Compra un teclado" href="https://www.pccomponentes.com/search/?query=teclado&amp;&amp;page=1&amp;or-relevance" coords="213,354,523,394" shape="rect">
+                <area target="_blank" alt="Compra un sobremesa" title="Compra un sobremesa" href="https://www.pccomponentes.com/sobremesa/sobremesa-gaming" coords="18,57,172,407" shape="rect">
+                <area target="_blank" alt="Compra un ratón" title="Compra un ratón" href="https://www.pccomponentes.com/search/?query=raton&amp;&amp;page=1&amp;or-relevance" coords="584,376,42" shape="circle">
+            </map>
+        </div>
+    </div>
+    <div class="tabla">
+        <table>
+            <tr>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+                <th>FRI</th>
+                <th class="red">SAT</th>
+                <th class="red">SUN</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td class="red">6</td>
+                <td class="red">7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td class="red">13</td>
+                <td class="red">14</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td class="red">20</td>
+                <td class="red">21</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td class="red">27</td>
+                <td class="red">28</td>
+            </tr>
+        </table>
+    </div>
+    <a href="#titulo">
+        <button class="gotoTop">
+            Clickeame para ir al principio
+        </button>
+    </a>
+</body>
+</html>
