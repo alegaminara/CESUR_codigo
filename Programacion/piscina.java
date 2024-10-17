@@ -22,14 +22,14 @@ public class piscina {
         nouVol1 = area1*nouProfunditat1;
         nouVol2 = area2*nouProfunditat2;
 
-        System.out.println("Área 1 = " + area1 + ", área 2 = " + area2);
-        System.out.println("Área tot = " + areaTot);
-        System.out.println("Volumen 1 = " + vol1 + ", volumen 2 = " + vol2);
-        System.out.println("Volumen tot = " + volTot);
-        System.out.println("Largo piscinas juntas = " + llargTot);
-        System.out.println("Amplio piscinas juntas = " + ampleTot);
-        System.out.println("Volumen nuevo piscina 2 = " + nouVol1);
-        System.out.println("Volumen nuevo piscina 1 = " + nouVol2);
+        System.out.println("Àrea 1 = " + area1 + ", àrea 2 = " + area2);
+        System.out.println("Àrea tot = " + areaTot);
+        System.out.println("Volum 1 = " + vol1 + ", volum 2 = " + vol2);
+        System.out.println("Volum tot = " + volTot);
+        System.out.println("Llarg piscines juntes = " + llargTot);
+        System.out.println("Ample piscines juntes = " + ampleTot);
+        System.out.println("Volum nou piscina 2 = " + nouVol1);
+        System.out.println("Volum nou piscina 1 = " + nouVol2);
 
     }
 }
