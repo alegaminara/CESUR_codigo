@@ -1,0 +1,330 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #252028;
+    padding: 0;
+    margin: 0;
+}
+
+.principal {
+    margin-top: -20px;
+    background-image: url("labiosDorados.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 924px;
+}
+
+.carta {
+    margin-top: -20px;
+    background-size: 100%;
+    background-image: url("labiosDoradosMenu.png");
+    background-repeat: no-repeat;
+    height: 1024px;
+}
+
+.sobreNosotros {
+    margin-top: -20px;
+    background-image: url("cocina.avif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+}
+
+.contacto {
+    margin-top: -20px;
+    background-image: url("telefono.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+}
+
+a, a:visited {
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+    color: #232028;
+}
+
+.titulo {
+    padding-top: 2%;
+}
+
+h1 {
+    margin-top: 150px;
+    margin: 0;
+    text-align: center;
+    color: gold;
+    font-family: "Mrs Saint Delafield", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1500%;
+    line-height: 80%;
+}
+
+.botonDiv {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.botonDivMenu {
+    text-align: center;
+    padding-top: 25%;
+}
+
+.siguienteBtn {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    width: 8%;
+    height: 45px;
+    font-family: "Updock", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+}
+
+.siguienteBtnMenu {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    width: 10%;
+    letter-spacing: 1%;
+    word-spacing: 0.25em;
+    height: 45px;
+    font-family: "Updock", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+}
+
+.formContacto {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    width: 15%;
+    letter-spacing: 1%;
+    word-spacing: 0.25em;
+    height: 45px;
+    font-family: "Updock", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu {
+    padding-top: 20px;
+    color: white;
+    font-family: "Updock", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 250%;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.plato {
+    display: inline-flex;
+    align-items: center;
+    width: 1140px;
+    height: 350px;
+    margin-left: 20%;
+    border-color: white;
+    color: white;
+    border: 1px solid gold;
+    margin-top: 5px;
+}
+
+.plato > .texto {
+    display: block;
+    padding-left: 2%;
+    margin-top: -10%;
+}
+
+.plato1 {
+    display: inline-flex;
+    align-items: center;
+    width: 1140px;
+    height: 350px;
+    margin-left: 20%;
+    border-color: white;
+    color: white;
+    border: 1px solid gold;
+    margin-top: 5px;
+    flex-direction: row-reverse;
+}
+
+.plato1 > .texto {
+    display: block;
+    margin-left: 2%;
+    padding-right: 2%;
+    margin-top: -10%;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-family: "Mrs Saint Delafield", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    line-height: 80%;
+}
+
+h2 {
+    text-align: center;
+    color: gold;
+    font-family: "Mrs Saint Delafield", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1000%;
+    line-height: 80%;
+}
+
+.menuBtn {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    width: 10%;
+    height: 45px;
+    font-family: "Updock", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+}
+
+.aMenuBtn {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.footerFather {
+    padding-top: 10%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.textoFooter {
+    flex: 1;
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.tablaMenu {
+    border: 1px solid gold;
+    margin: 20%;
+}
+
+#menu  td {
+    border: 1px solid gold;
+}
+
+td > img {
+    width: 350px;
+    height: 350px;
+}
+
+td > p {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5%;
+}
+
+.textos {
+    margin-top: 10%;
+}
+
+.textos > p {
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    color: white;
+}
+
+.tablaEmpleados {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.noticia {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.formulario {
+    background-color: #232028;
+    border: 1px solid gold;
+    border-radius: 5%;
+    height: 65%;
+    margin: 10%;
+    color: white;
+}
+
+.formulario h1 {
+    padding-top: 55px;
+}
+
+.formPrimero, .formSegundo {
+    text-align: center;
+    margin: 2.5%;
+}
+
+.formularioBtn {
+    text-align: center;
+}
+
+.formulario button {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    width: 12%;
+    letter-spacing: 1%;
+    word-spacing: 0.25em;
+    height: 45px;
+    font-family: "Updock", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+}
+
+.formulario input {
+    width: 15%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 2%;
+}
+
+.formulario label {
+    margin-left: 5%;
+}
