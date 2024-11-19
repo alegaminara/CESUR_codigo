@@ -1,0 +1,24 @@
+.caja1 {
+    border: dashed blue;
+    border-top: dotted 4px green;
+    border-right: dashed orange;
+    border-bottom: dotted 4px red;
+    padding: 5%;
+    margin-bottom: 2%;
+}
+
+.caja2 {
+    margin: 2%;
+    align-items: center;
+    padding-left: 5%;
+    padding-top: 5%;
+    border: solid 4px turquoise;
+    border-bottom: solid 4px pink;
+    border-left: solid 6px black;
+    border-right: solid 6px black;
+}
+
+.caja3 {
+    border: solid 3px black;
+    padding: 10px;
+}
