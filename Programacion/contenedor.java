@@ -7,6 +7,7 @@ public class contenedor {
         } else {
             System.out.println("Access granted - You're old enough");
         } Scanner input = new Scanner(System.in);
+        input.close();
     }
 
     public static void main(String[] args) {
