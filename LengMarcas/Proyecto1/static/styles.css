@@ -92,7 +92,7 @@ h1 {
     background-color: transparent;
     color: white;
     width: 10%;
-    letter-spacing: 1%;
+    letter-spacing: 1px;
     word-spacing: 0.25em;
     height: 45px;
     font-family: "Updock", cursive;
@@ -106,7 +106,7 @@ h1 {
     background-color: transparent;
     color: white;
     width: 15%;
-    letter-spacing: 1%;
+    letter-spacing: 1px;
     word-spacing: 0.25em;
     height: 45px;
     font-family: "Updock", cursive;
@@ -307,7 +307,7 @@ td > p {
     background-color: transparent;
     color: white;
     width: 12%;
-    letter-spacing: 1%;
+    letter-spacing: 1px;
     word-spacing: 0.25em;
     height: 45px;
     font-family: "Updock", cursive;

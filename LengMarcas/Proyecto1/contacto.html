@@ -33,13 +33,15 @@
             <h1 id="nuestroMenu">Contácte con nosotros</h1>
         </div>
         <div class="botonDivMenu">
-            <a href="#formulario"><button class="formContacto">Formulario de contacto</button></a>
+            <form action="#formulario">
+                <button class="formContacto">Formulario de contacto</button>
+            </form>
         </div>
         <div class="formulario" id="formulario">
             <header>
                 <h1>Reserva tu Mesa</h1>
             </header>
-            <form action="contacto.html" ="POST" class="form-reserva">
+            <form action="contacto.html" method="POST" class="form-reserva">
                 <div class="formPrimero">
                     <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" name="nombre" required>
@@ -72,11 +74,11 @@
                     <div class="textoFooter" id="izquierda">
                         <p>Número de telefono: <a href="tel:+34638978807">638 97 88 07</a></p>
                     </div>
-                    <div class="textoFooter" id="izquierda">
+                    <div class="textoFooter" id="centro">
                         <p>Nuestro correo electrónico: <a href="mailto:info@wulin.shop">info@wulin.shop</a></p>
                     </div>
                     <div class="textoFooter" id="derecha">
-                        <p><a href="contacto.html">Reserve ya su mesa</a</p>
+                        <p><a href="contacto.html">Reserve ya su mesa</a></p>
                     </div>
                 </div>
             </nav>
