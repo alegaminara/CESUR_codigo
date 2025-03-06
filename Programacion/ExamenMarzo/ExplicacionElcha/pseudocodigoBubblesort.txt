@@ -1,0 +1,5 @@
+bubble_sort(arr):
+    para i desde 0 hasta n-1:
+        para j desde 0 hasta n-i-1:
+            si arr[j] > arr[j+1]:
+                intercambiar arr[j] y arr[j+1]

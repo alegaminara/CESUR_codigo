@@ -1,0 +1,14 @@
+binary_search(arr, target):
+    inicio = 0
+    fin = tamaño de arr - 1
+    
+    mientras inicio ≤ fin:
+        medio = (inicio + fin) / 2
+        si arr[medio] == target:
+            retornar medio
+        si arr[medio] < target:
+            inicio = medio + 1
+        si arr[medio] > target:
+            fin = medio - 1
+    
+    retornar -1  // No encontrado
