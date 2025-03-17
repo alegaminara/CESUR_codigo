@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="static/script.js" defer></script>
+    <title>Formulario ETS</title>
+</head>
+<body>
+    <h1>Formulario sobre Enfermedades de Transmisión Sexual (ETS)</h1>
+
+    <form id="formularioETS">
+        <div class="nombreApellido">
+            <div class="nombre">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="apellido">
+                <label for="apellido">Apellido(s):</label>
+                <input type="text" id="apellido" required>
+            </div>
+        </div>
+
+        <div class="pregunta">
+            <label for="ETS_Definicion">1. ¿Qué significa ETS?</label>
+            <input type="text" id="ETS_Definicion">
+        </div>
+
+        <div class="pregunta">
+            <label>2. ¿Cuáles de las siguientes son ETS? (Seleccione todas las correctas)</label><br>
+            <input type="checkbox" id="sida" class="ETS_Multi" value="sida">
+            <label for="sida">VIH/SIDA</label><br>
+
+            <input type="checkbox" id="gonorrea" class="ETS_Multi" value="gonorrea">
+            <label for="gonorrea">Gonorrea</label><br>
+
+            <input type="checkbox" id="gripe" class="ETS_Multi" value="gripe">
+            <label for="gripe">Gripe</label><br>
+
+            <input type="checkbox" id="herpes" class="ETS_Multi" value="herpes">
+            <label for="herpes">Herpes genital</label><br>
+
+            <input type="checkbox" id="tuberculosis" class="ETS_Multi" value="tuberculosis">
+            <label for="tuberculosis">Tuberculosis</label><br>
+        </div>
+
+        <div class="pregunta">
+            <label for="ETS_Transmision">3. ¿Cuál NO es una forma de transmisión de ETS?</label>
+            <select id="ETS_Transmision">
+                <option value="">Seleccione una opción</option>
+                <option value="sangre">Contacto con sangre</option>
+                <option value="relaciones">Relaciones sexuales sin protección</option>
+                <option value="abrazos">Abrazos y besos</option>
+                <option value="madre">De madre a hijo en el parto</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <label>4. ¿El uso de preservativo reduce el riesgo de ETS? (Verdadero/Falso)</label><br>
+            <input type="radio" id="preservativo_verdadero" name="preservativo" value="verdadero">
+            <label for="verdadero">Verdadero</label><br>
+
+            <input type="radio" id="preservativo_falso" name="preservativo" value="falso">
+            <label for="falso">Falso</label>
+        </div>
+
+        <div class="pregunta">
+            <label for="ETS_Curable">5. ¿Cuál de estas ETS se puede curar con antibióticos?</label>
+            <select id="ETS_Curable">
+                <option value="">Seleccione una opción</option>
+                <option value="vih">VIH</option>
+                <option value="herpes">Herpes genital</option>
+                <option value="gonorrea">Gonorrea</option>
+                <option value="papiloma">Virus del papiloma humano</option>
+            </select>
+        </div>
+
+        <div class="pregunta">
+            <label>6. ¿Las ETS siempre presentan síntomas? (Sí/No)</label><br>
+            <input type="radio" id="sintomas_si" name="sintomas" value="si">
+            <label for="verdadero">Sí</label><br>
+
+            <input type="radio" id="sintomas_no" name="sintomas" value="no">
+            <label for="falso">No</label>
+        </div>
+
+        <div class="pregunta">
+            <label for="periodo_VIH">7. ¿Cuál es el período de ventana del VIH?</label>
+            <input type="text" id="periodo_VIH">
+        </div>
+
+        <div class="pregunta">
+            <label>8. ¿Las ETS pueden afectar tanto a hombres como a mujeres? (Sí/No)</label><br>
+            <input type="radio" id="genero_si" name="genero" value="si">
+            <label for="verdadero">Sí</label><br>
+
+            <input type="radio" id="genero_no" name="genero" value="no">
+            <label for="falso">No</label>
+        </div>
+
+        <div class="pregunta">
+            <label for="ETS_Especialista">9. ¿Qué especialista trata las ETS?</label>
+            <input type="text" id="ETS_Especialista">
+        </div>
+
+        <div class="pregunta">
+            <label>10. ¿Se pueden prevenir las ETS? (Sí/No)</label><br>
+            <input type="radio" id="prevencion_si" name="prevencion" value="si">
+            <label for="verdadero">Sí</label><br>
+
+            <input type="radio" id="prevencion_no" name="prevencion" value="no">
+            <label for="falso">No</label>
+        </div>
+        <div class="containerbtn">
+            <button id="btn" onclick="checkForm()">
+                <p id="btnText">Submit</p>
+                <div class="check-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                        <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                </div>
+            </button>
+        </div> 
+        <div id="resultado"></div>
+    </form>
+</body>
+</html>

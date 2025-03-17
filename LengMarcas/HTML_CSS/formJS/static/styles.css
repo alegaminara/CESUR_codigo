@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: blueviolet;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form {
+    border: #fff 2px solid;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.nombreApellido {
+    display: flex;
+    padding: 2rem;
+    max-width: 40%;
+    justify-self: center;
+}
+
+.nombreApellido input {
+    max-width: unset !important;
+}
+
+.apellido {
+    padding-left: 1em;
+}
+
+input[type="text"] {
+    display: flex;
+    max-width: 25%;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    justify-self: center;
+    box-shadow: 5px 10px #000 ;
+}
+
+.pregunta > label {
+    font-weight: bolder;
+    display: flex;
+    margin-left: 70vh;
+    
+}
+
+.pregunta select {
+    display: flex;
+    justify-self: center;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    box-shadow: 5px 10px #000 ;
+}
+
+.pregunta input[type="radio"], .pregunta input[type="checkbox"]{
+    margin-left: 45% !important;
+    margin-bottom: 1rem;
+}
+
+.pregunta label[for="sida"], label[for="gonorrea"], 
+label[for="herpes"], label[for="gripe"], label[for="tuberculosis"], 
+.pregunta input[type="checkbox"], .pregunta label[for="verdadero"],
+.pregunta [for="falso"], input[type="radio"]{
+    margin: 0;
+    display: inline;
+}
+
+/* Estilos para el botón de enviar */
+
+.containerbtn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+}
+
+button{
+    width: 270px;
+    height: 80px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.check-box{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    box-shadow: 0 0 12px -2px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    right: -40px;
+    opacity: 0;
+}
+
+.check-box svg{
+    width: 40px;
+    margin: 20px;
+}
+
+svg path{
+    stroke-width: 3;
+    stroke: #fff;
+    stroke-dasharray: 34;
+    stroke-dashoffset: 34;
+    stroke-linecap: round;
+}
+
+.active{
+    background: #ff2b75;
+    transition: 1s;
+}
+
+.active .check-box{
+    right: 0;
+    opacity: 1;
+    transition: 1s;
+}
+
+.active p{
+    margin-right: 125px;
+    transition: 1s;
+}
+
+.active svg path{
+    stroke-dashoffset: 0;
+    transition: 1s;
+    transition-delay: 1s;
+}
